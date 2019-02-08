@@ -1,16 +1,21 @@
-# README
+## Freely
 
-This is a boilerplate Rails project that uses:
+### What is Freely?
 
-* `ruby ~> 2.5`
-* `postgresql` as the database
-* `webpacker` with `react`
-* the `react_on_rails` gem
+* Freely is a free application that tracks the user's current geolocation, or a zipcode entered by the user, and presents free events within a 10km radius.  
 
-## Deployment
+### Installation
 
-* `heroku create your-app-name`
-* `heroku buildpacks:set heroku/ruby`
-* `heroku buildpacks:add --index 1 heroku/nodejs`
-* `git push heroku master`
-* `heroku run rails db:migrate`
+* Clone the repository and run:
+* bundle, yarn install, rails db:drop db:create db:migrate db:seed
+* open a PostgreSQL server and run rails s in the terminal
+
+### Future Additions
+
+* Add an option to filter the results by category
+* Incorporate more APIs to find more events nearby
+* Allow users to add their own events
+* Add push notifications
+
+By Robert Beavin, Stephanie Olaya, and Ana Gonzalez
+
